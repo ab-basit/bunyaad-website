@@ -118,3 +118,18 @@ img { max-width: 100%; display: block; }
 
 @media (max-width: 1024px) { .projects-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 640px) { .projects-grid { grid-template-columns: 1fr; } }
+
+/* CONTACT */
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.contact-list { list-style: none; margin: 20px 0; display: flex; flex-direction: column; gap: 12px; }
+.contact-list a { color: var(--steel); font-weight: 500; }
+.contact-map iframe { border-radius: var(--radius); }
+.contact-form { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; gap: 6px; box-shadow: var(--shadow); }
+.contact-form label { font-weight: 500; font-size: 0.9rem; margin-top: 10px; }
+.contact-form input, .contact-form textarea { padding: 12px; border: 1px solid var(--border); border-radius: var(--radius); font-family: inherit; font-size: 0.95rem; }
+.contact-form button { margin-top: 16px; }
+.form-status { font-size: 0.9rem; margin-top: 10px; min-height: 1.2em; }
+.form-status.success { color: #1a7f37; }
+.form-status.error { color: #b3261e; }
+
+@media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; } }

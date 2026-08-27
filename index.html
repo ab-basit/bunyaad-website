@@ -150,7 +150,34 @@
 
   <section id="contact" class="section section-alt">
     <div class="container">
-      <!-- CONTACT_CONTENT -->
+      <div class="section-head">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Contact Us</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Reach Us</h3>
+          <ul class="contact-list">
+            <li>📍 Opp. RGCSM Institute, Achabal Adda, Danter Road, Anantnag, J&amp;K – 192101</li>
+            <li>📞 <a href="tel:+918899517148">+91 88995 17148</a></li>
+            <li>📞 <a href="tel:+919320675851">+91 93206 75851</a></li>
+            <li>📧 <a href="mailto:info@bunyaad.in">info@bunyaad.in</a></li>
+          </ul>
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps?q=Achabal+Adda,+Danter+Road,+Anantnag,+Jammu+and+Kashmir+192101&output=embed" width="100%" height="260" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="BUNYAAD office location map"></iframe>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </div>
     </div>
   </section>
 </main>
