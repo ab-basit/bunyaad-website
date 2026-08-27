@@ -79,3 +79,20 @@ img { max-width: 100%; display: block; }
   .header-call { display: none; }
   .hero-content h1 { font-size: 1.9rem; }
 }
+
+/* ABOUT */
+.about-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: start; margin-bottom: 48px; }
+.about-text p { margin-bottom: 16px; color: var(--text-muted); }
+.about-cards { display: flex; flex-direction: column; gap: 20px; }
+.about-card { background: var(--white); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; box-shadow: var(--shadow); }
+.about-card h3 { font-size: 1.1rem; margin-bottom: 8px; }
+.about-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+.why-us h3 { text-align: center; margin-bottom: 20px; }
+.why-list { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; max-width: 900px; margin: 0 auto; }
+.why-list li { background: var(--bg-light); border-radius: var(--radius); padding: 14px 18px; font-weight: 500; position: relative; padding-left: 40px; }
+.why-list li::before { content: '✔'; position: absolute; left: 16px; color: var(--steel); font-weight: 700; }
+
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: 1fr; }
+}
