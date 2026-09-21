@@ -72,7 +72,9 @@ img { max-width: 100%; display: block; }
 .hero-meta a { color: var(--white); }
 
 /* FOOTER */
-.site-footer { background: var(--navy); color: #b7c4d6; padding: 24px 0; text-align: center; font-size: 0.85rem; }
+.site-footer { background: var(--navy); color: #b7c4d6; padding: 32px 0 24px; text-align: center; font-size: 0.85rem; }
+.footer-brand { justify-content: center; margin: 0 auto 16px; }
+.footer-brand .logo-main { font-size: 1.6rem; }
 
 /* MOBILE NAV */
 @media (max-width: 768px) {
