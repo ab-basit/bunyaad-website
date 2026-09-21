@@ -14,13 +14,14 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+html { scroll-behavior: smooth; scroll-padding-top: 100px; overscroll-behavior-y: none; background: var(--navy); }
 
 body {
   font-family: 'Inter', sans-serif;
   color: var(--text-dark);
   line-height: 1.6;
   background: var(--white);
+  overscroll-behavior-y: none;
 }
 
 h1, h2, h3 { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--navy); line-height: 1.25; }
