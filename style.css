@@ -48,7 +48,10 @@ img { max-width: 100%; display: block; }
 /* HEADER */
 .site-header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--navy); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; padding-top: 14px; padding-bottom: 14px; gap: 24px; }
-.logo { display: flex; flex-direction: column; line-height: 1.1; }
+.logo { display: flex; align-items: center; gap: 10px; line-height: 1.1; }
+.logo-badge { background: var(--white); border-radius: 6px; padding: 4px 8px; display: flex; align-items: center; }
+.logo-mark { height: 36px; width: auto; }
+.logo-text { display: flex; flex-direction: column; }
 .logo-main { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.4rem; color: var(--white); letter-spacing: 1px; }
 .logo-sub { font-size: 0.65rem; color: #b7c4d6; }
 .site-nav { display: flex; gap: 28px; }
